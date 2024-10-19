@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
+import PrimaryBtn from "../../components/Button/PrimaryBtn";
 
 const Hero = () => {
   //dummy data for coreusel
@@ -50,6 +51,9 @@ const Hero = () => {
           modules={[Autoplay, Navigation]}
           className="mySwiper w-full h-auto"
         >
+          {/**/}
+          {/*loop the carousle content here*/}
+          {/*Swiper Slids*/}
           <SwiperSlide
             className="w-full h-[70vh] relative"
             style={{
@@ -66,6 +70,13 @@ const Hero = () => {
               <h5 className="lg:text-4xl md:text-3xl sm:text-2xl text-2xl text-indigo-400 font-semibold mb-2 uppercase">
                 keep you body
               </h5>
+              <h1 className="lg:text-8x1 md:text-7x1 sm:text-5xl text-5xl font-bold  text-white mb-4 uppercase">
+                Burning
+              </h1>
+              <p className="lg:text-lg md:text-base sm:text-base text-base text-gray-500 font-medium mb-6 text-center">
+                Get ready to burn off some serious with our high quality products.
+              </p>
+              <PrimaryBtn className="lg:w-[15%] md:w-[35%] sm:w-[75] w-80 h-14 mt-5 text-xl font-semibold rounded-full">Get Started</PrimaryBtn>
             </div>
           </SwiperSlide>
         </Swiper>
