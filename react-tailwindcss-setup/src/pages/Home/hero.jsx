@@ -1,5 +1,5 @@
 import React from "react";
-// Import 
+// Import Swiper React 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -30,7 +30,7 @@ const Hero = () => {
     },
     {
       id: 3,
-      bgImg: "https://files.prokerala.com/movies/pics/800/gangotri-fame-kavya-hd-photos-114041.jpg",
+      bgImg: "https://source.unsplash.com/random/?yoga",
       slogan: "Grow Your Body",
       title: "Strength",
       desc: "Make your body stronger with our high quality products.",
