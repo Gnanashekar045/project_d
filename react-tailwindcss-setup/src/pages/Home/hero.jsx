@@ -16,7 +16,7 @@ const Hero = () => {
   const swiperData = [
     {
       id: 1,
-      bgImg: "https://static.toiimg.com/thumb/imgsize-23456,msid-101689456,width-600,resizemode-4/101689456.jpg",
+      bgImg: "https://jamespatrick.com/wp-content/uploads/2023/12/Fitness-Ashley-Wilke.jpg",
       slogan: "Keep your body",
       title: "Burning",
       desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -30,7 +30,7 @@ const Hero = () => {
     },
     {
       id: 3,
-      bgImg: "https://source.unsplash.com/random/?yoga",
+      bgImg: "https://i.ytimg.com/vi/3s2Ln8pFihA/maxresdefault.jpg",
       slogan: "Grow Your Body",
       title: "Strength",
       desc: "Make your body stronger with our high quality products.",
