@@ -5,9 +5,10 @@ import {roomData} from '../data'
 export const RoomContext = createContext();
 
 const RouterProvider = ({children}) => {
-  console.log(roomData)
+  const [rooms, setRomms] = useState(roomData)
+  console.log(rooms)
   return (
-    <RoomContext.Provider value={'room context'}>
+    <RoomContext.Provider value={{rooms}}>
       {children}
     </RoomContext.Provider>
   )
