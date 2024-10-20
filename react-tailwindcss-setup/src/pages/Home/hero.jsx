@@ -79,8 +79,11 @@ const Hero = () => {
               <PrimaryBtn className="lg:w-[15%] md:w-[35%] sm:w-[75] w-80 h-14 mt-5 text-xl font-semibold rounded-full">Get Started</PrimaryBtn>
             </div>
           </SwiperSlide>))}
-          
         </Swiper>
+        {/*Bnner type card*/}
+        <div className="w-full h-auto flex itmes-center lg:justify-between md:justify-between sm:justify-center justify-center lg:gap-7 md:gap-7 sm:gap-5 gap-5 lg:px-24 md:px-16 sm:px-6 px-6 mt-6 flex-wrap">
+          
+        </div>
       </div>
     </>
   );
