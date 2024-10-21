@@ -24,14 +24,14 @@ const Hero = () => {
     },
     {
       id: 2,
-      bgImg: "https://pbs.twimg.com/media/FqmzcsuaYAIQiDl.jpg:large",
+      bgImg: "https://i.ytimg.com/vi/yC7g4gaxE3E/maxresdefault.jpg",
       slogan: "Just Believe In",
       title: "Yourself",
       desc: "We are here to help you achieve your goals.",
     },
     {
       id: 3,
-      bgImg: "https://i.ytimg.com/vi/3s2Ln8pFihA/maxresdefault.jpg",
+      bgImg: "https://c.wallhere.com/photos/c3/66/women_Bodybuilder_muscles_rear_view_fitness_model-122543.jpg!d",
       slogan: "Grow Your Body",
       title: "Strength",
       desc: "Make your body stronger with our high quality products.",
