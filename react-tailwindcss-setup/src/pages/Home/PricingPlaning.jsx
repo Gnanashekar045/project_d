@@ -11,10 +11,15 @@ const Pricingplan = () => {
         </h6>
         <div className="w-full h-auto flex justify-center gap-x-5 gap-y-8 flex-wrap">
           <div className="lg:w-[28%] md:w-full sm:w-full w-full h-auto px-10 lg:py-12 md:py-12 sm:py-10 py-10 bg-black rounded-lg border-6 border-gray-600 hover:border-indigo-600 hover:bg-gray-600 ease-out duration-700 cursor-pointer">
-            <h2 className="text-4xl text-white font-semibold mb-5">
-                Basic Plan
+            <h2 className="lg:text-4xl md:text-4xl sm:text-3xl text-3xl text-white font-semibold mb-5">
+              Basic Plan
             </h2>
-            <h1 className=""></h1>
+            <h1 className="lg:text-5xl md:text-5xl sm:text-4xl text-4xl text-indigo-600 font-bold mb-3 tracking-wide">
+              Rs:165
+              <span className="lg:text-xl md:text-xl sm:text-lg text-base text-gray-300 font-medium tracking-normal">
+                / month
+              </span>
+            </h1>
           </div>
         </div>
       </div>
