@@ -1,5 +1,7 @@
 import React from "react";
-import { Dumbbell } from "lucide-react";
+import { Dumbbell, MoveRight } from "lucide-react";
+import { data } from "autoprefixer";
+import SecondaryLink from "../../components/LinkBtn/SecondaryLink";
 const Trainers = () => {
   const trainerData = [
     {
@@ -36,20 +38,32 @@ const Trainers = () => {
         </h6>
         <div className="w-full h-auto flex items-center justify-center lg:gap-x-8 md:gap-x-6 sm:gap-x-4 gap-x-3 lg:gap-y-8 md:gap-y-6 sm:gap-y-4 gap-3 flex-wrap mb-10">
           {/*let display it through loop */}
-          <div className="lg:w-[23%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58v] h-[60vh] rounded-xl overflow-hidden relative">
-            <img
-              src="https://az505806.vo.msecnd.net/cms/d58f1744-7071-415c-9d58-81f22ace4ad2/94e034fd-9635-4e7a-b591-57127fcfc4bc.jpg"
-              alt="trainer Image"
-              className="w-full h-auto object-cover"
-            />
-            <div className="w-full h-auto bg-gray-900/70 absolute bottom-0 left-0 py-4 px-2 flex items-center justify-center flex-col">
-              <h1 className="text-xl text-white font-semibold">
-                Dr. John Smith
-              </h1>
-              <p className="text-sm text-gray-300">Body Building Coach</p>
+          {trainerData.map((Trainer) => (
+            <div
+              key={data.id}
+              className="lg:w-[23%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58v] h-[60vh] rounded-xl overflow-hidden relative"
+            >
+              <img
+                src={data.trainerImg}
+                alt="trainer Image"
+                className="w-full h-auto object-cover"
+              />
+              <div className="w-full h-auto bg-gray-900/70 absolute bottom-0 left-0 py-4 px-2 flex items-center justify-center flex-col">
+                <h1 className="text-xl text-white font-semibold">
+                  {data.name}
+                </h1>
+                <p className="text-sm text-gray-300">{data.role}</p>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
+        <SecondaryLink
+          link="/trainers"
+          className="lg:w-[15%] md:w-[50%] sm:w-[75%] w-[85%] justify-center"
+        >
+          View All Trainers
+          <MoveRight className="w-4 h-4" />
+        </SecondaryLink>
       </div>
     </>
   );

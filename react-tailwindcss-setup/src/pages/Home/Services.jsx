@@ -1,6 +1,7 @@
 import { Dumbbell, MoveRight } from "lucide-react";
 import React from "react";
 import TertiaryLink from "../../components/LinkBtn/TertiaryLink";
+import SecondaryLink from "../../components/LinkBtn/SecondaryLink";
 
 const Services = () => {
   const servicesData = [
@@ -72,7 +73,7 @@ const Services = () => {
           {/*let display it through loop */}
           {servicesData.map((data) => (
             <div
-            key={data.id}
+              key={data.id}
               className="lg:w-[24%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58vh] h-[60vh] rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translater-y-2 ease-out duration-500"
               style={{
                 backgroundImage: `url(${data.serviceImg})`,
@@ -100,6 +101,13 @@ const Services = () => {
             </div>
           ))}
         </div>
+        <SecondaryLink
+          link="/services"
+          className="lg:w-[15%] md:w-[50%] sm:w-[75%] w-[85%] justify-center"
+        >
+          View All Trainers
+          <MoveRight className="w-4 h-4" />
+        </SecondaryLink>
       </div>
     </>
   );
