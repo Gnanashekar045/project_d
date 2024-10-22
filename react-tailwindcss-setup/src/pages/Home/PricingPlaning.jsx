@@ -1,4 +1,4 @@
-import { Dumbbell } from "lucide-react";
+import { CheckSquare, Dumbbell } from "lucide-react";
 import React from "react";
 
 const Pricingplan = () => {
@@ -10,7 +10,7 @@ const Pricingplan = () => {
           Our pricing Plan
         </h6>
         <div className="w-full h-auto flex justify-center gap-x-5 gap-y-8 flex-wrap">
-          <div className="lg:w-[28%] md:w-full sm:w-full w-full h-auto px-10 lg:py-12 md:py-12 sm:py-10 py-10 bg-black rounded-lg border-6 border-gray-600 hover:border-indigo-600 hover:bg-gray-600 ease-out duration-700 cursor-pointer">
+          <div className="lg:w-[28%] md:w-full sm:w-full w-full h-auto px-10 lg:py-12 md:py-12 sm:py-10 py-10 bg-black rounded-lg border-[6px]} border-gray-600 hover:border-indigo-600 hover:bg-gray-600 ease-out duration-700 cursor-pointer">
             <h2 className="lg:text-4xl md:text-4xl sm:text-3xl text-3xl text-white font-semibold mb-5">
               Basic Plan
             </h2>
@@ -20,6 +20,13 @@ const Pricingplan = () => {
                 / month
               </span>
             </h1>
+            <hr className="border-gray-600/40 my-7" />
+            <div className="w-full h-auto flex items-start gap-x-2">
+              <CheckSquare className="w-5 h-5 text-indigo-600" />
+              <p className="text-gray-400 lg:text-base md:text-base sm:text-base text-sm">
+                
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import Services from "./Services";
 import Banner from "./Banner";
 import Trainers from "./Trainers";
 import Popular from "./Popular";
+import Pricingplan from "./PricingPlaning";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Banner />
         <Trainers />
         <Popular />
+        <Pricingplan/>
       </div>
     </>
   );
