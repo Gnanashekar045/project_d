@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Second and Third Column */}
+          {/* Second and Third Colum */}
           <div className="lg:w-[65%] md:w-[65%] sm:w-full w-full h-auto p-2 flex items-center lg:justify-end md:justify-end sm:justify-center justify-center flex-wrap gap-5">
             {/* Services Column */}
             <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex items-center flex-col justify-center">
