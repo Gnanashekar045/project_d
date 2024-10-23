@@ -8,6 +8,7 @@ import Trainers from "./Trainers";
 import Popular from "./Popular";
 import Pricingplan from "./PricingPlaning";
 import Contacts from "./Contact";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -20,8 +21,9 @@ const Home = () => {
         <Banner />
         <Trainers />
         <Popular />
-        <Pricingplan/>
-        <Contacts/>
+        <Pricingplan />
+        <Contacts />
+        <Footer />
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import { Dumbbell } from "lucide-react";
 import React from "react";
+import PrimaryBtn from "../../components/Button/PrimaryBtn";
 
 const Contacts = () => {
   return (
@@ -45,6 +46,9 @@ const Contacts = () => {
             className="w-full px-4"
             placeholder="Enter your message"
           />
+          <PrimaryBtn className="lg:w-auto md:w-auto sm:w-[75%] w-full px-8 py-3 uppercase rounded-md">
+            Send Message
+          </PrimaryBtn>
         </div>
       </div>
     </>
