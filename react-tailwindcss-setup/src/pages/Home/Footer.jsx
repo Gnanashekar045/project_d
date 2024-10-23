@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Quick Links Column */}
+            {/* Quick Links Colum*/}
             <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex items-center flex-col justify-center">
               <h2 className="text-lg text-gray-200 font-medium mb-4">Quick Links</h2>
               <div className="w-full h-auto">
