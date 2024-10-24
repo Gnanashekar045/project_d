@@ -2,19 +2,25 @@ import { Dumbbell, MoveRight } from "lucide-react";
 import React from "react";
 import TertiaryLink from "../../components/LinkBtn/TertiaryLink";
 import SecondaryLink from "../../components/LinkBtn/SecondaryLink";
+import boxing from "../../assets/boxing_img.jpg";
+import finess from "../../assets/fitness_img.jpg"
+import gymnas from "../../assets/Gymnastic_img.jpg"
+import karate from "../../assets/Karate_img.jpg"
+import yoga from "../../assets/yoga_img.webp"
+
 
 const Services = () => {
   const servicesData = [
     {
       id: 1,
-      serviceImg: "https://source.unsplash.com/random/?dumbbell",
+      serviceImg: finess,
       title: "Fitness",
       desc: "Get ready to burn off some serious fat with our high quality products.",
       link: "#services",
     },
     {
       id: 2,
-      serviceImg: "https://source.unsplash.com/random/?yoga",
+      serviceImg: boxing,
       title: "Yoga",
       desc: "Get ready to burn off some serious fat with our high quality products.",
       link: "#services",
@@ -74,7 +80,7 @@ const Services = () => {
           {servicesData.map((data) => (
             <div
               key={data.id}
-              className="lg:w-[24%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58vh] h-[60vh] rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translater-y-2 ease-out duration-500"
+              className="lg:w-[24%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58vh] h-[60vh] rounded-xl bg-black relative overflow-hidden cursor-pointer z-10 hover:-translate-y-2 ease-out duration-500"
               style={{
                 backgroundImage: `url(${data.serviceImg})`,
                 backgroundSize: "cover",
@@ -82,15 +88,16 @@ const Services = () => {
                 backgroundRepeat: "no-repeat",
               }}
             >
-              <div className="w-full h-auto bg-black/80 absolute top-0 left-0 -z-10"></div>
-              <div className="w-full h-auto flex items-center justify-center flex-col text-white p-4 z-50">
+              {/* Make the overlay darker */}
+              <div className="w-full h-full bg-black/50 absolute top-0 left-0 z-20"></div>
+              <div className="w-full h-auto flex items-center justify-center flex-col text-white p-4 relative z-30">
                 <div className="w-14 h-14 rounded-full bg-indigo-600/20 border-4 border-indigo-600/80 flex items-center justify-center mb-5">
-                  <Dumbbell className="w-6 h-6  text-white" />
+                  <Dumbbell className="w-6 h-6 text-white" />
                 </div>
-                <h1 className="text-xl text-gray-100 font-semibold text-center mb-4">
+                <h1 className="text-xl text-white font-semibold text-center mb-4">
                   {data.title}
                 </h1>
-                <p className="text-base text-gray-400 font-normal text-center mb-4">
+                <p className="text-base text-gray-300 font-normal text-center mb-4">
                   {data.desc}
                 </p>
                 <TertiaryLink link={data.link}>

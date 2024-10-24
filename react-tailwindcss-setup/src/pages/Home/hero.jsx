@@ -17,7 +17,7 @@ const Hero = () => {
     {
       id: 1,
       bgImg:
-        "https://jamespatrick.com/wp-content/uploads/2023/12/Fitness-Ashley-Wilke.jpg",
+        "https://thumbs.dreamstime.com/b/closeup-portrait-muscular-man-workout-barbell-gym-brutal-bodybuilder-athletic-six-pack-perfect-abs-shoulders-55122231.jpg",
       slogan: "Keep your body",
       title: "Burning",
       desc: "Get ready to burn off some serious fat with our high quality products.",
@@ -31,7 +31,8 @@ const Hero = () => {
     },
     {
       id: 3,
-      bgImg: "https://c.wallhere.com/photos/c3/66/women_Bodybuilder_muscles_rear_view_fitness_model-122543.jpg!d",
+      bgImg:
+        "https://www.telegraph.co.uk/content/dam/health-fitness/2017/11/09/TELEMMGLPICT000146072663-xlarge_trans_NvBQzQNjv4Bqek9vKm18v_rkIPH9w2GMNtm3NAjPW-2_OvjCiS6COCU.jpeg",
       slogan: "Grow Your Body",
       title: "Strength",
       desc: "Make your body stronger with our high quality products.",
@@ -100,16 +101,16 @@ const Hero = () => {
             <p className="text-lg text-gray-600 font-medium">Members</p>
           </div>
           <div className="flex items-center justify-center flex-col lg:w-fit md:w-[48% sm:w-[48%] w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 hover:bg-black/30 rounded-md ease-out duration-700 cursor-pointer">
-          <h5 className="h5 text-4x1 text-indigo-400 font-semibold mb-2 uppercase">
-            1200+
-          </h5>
-          <p className="text-lg text-gray-600 font-medium">Members</p>
+            <h5 className="h5 text-4x1 text-indigo-400 font-semibold mb-2 uppercase">
+              1200+
+            </h5>
+            <p className="text-lg text-gray-600 font-medium">Members</p>
           </div>
           <div className="flex items-center justify-center flex-col lg:w-fit md:w-[48% sm:w-[48%] w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 hover:bg-black/30 rounded-md ease-out duration-700 cursor-pointer">
-          <h5 className="h5 text-4x1 text-indigo-400 font-semibold mb-2 uppercase">
-            1200+
-          </h5>
-          <p className="text-lg text-gray-600 font-medium">Members</p>
+            <h5 className="h5 text-4x1 text-indigo-400 font-semibold mb-2 uppercase">
+              1200+
+            </h5>
+            <p className="text-lg text-gray-600 font-medium">Members</p>
           </div>
         </div>
       </div>

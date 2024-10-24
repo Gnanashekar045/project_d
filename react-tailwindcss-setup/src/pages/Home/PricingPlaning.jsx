@@ -48,7 +48,7 @@ const Pricingplan = () => {
             </div>
           </div>
           {/*Primium Plan*/}
-          <div className="lg:w-[28%] md:w-full sm:w-full w-full h-auto px-10 lg:py-12 md:py-12 sm:py-10 py-10 bg-black rounded-lg border-[6px]} border-gray-600 hover:border-indigo-600 hover:bg-gray-600 ease-out duration-700 cursor-pointer">
+          <div className="lg:w-[28%] md:w-full sm:w-full w-full h-auto px-10 lg:py-12 md:py-12 sm:py-10 py-10 bg-black rounded-lg border-[6px]} border-gray-600 hover:border-indigo-600 hover:bg-gray-600 ease-out duration-700 cursor-pointer relative">
             <div className="absolute top-6 left-1/2 transform -translate-x-1/2 bg-indigo-600 py-2 px-5 rounded-full text-base font-medium text-white">
               <h2>Come</h2>
             </div>

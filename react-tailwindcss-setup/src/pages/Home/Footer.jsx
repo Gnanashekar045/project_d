@@ -1,4 +1,13 @@
-import { Dumbbell, Facebook, InspectIcon, Link, MailOpen, MapPin, Phone, YoutubeIcon } from "lucide-react";
+import {
+  Dumbbell,
+  Facebook,
+  InspectIcon,
+  Link,
+  MailOpen,
+  MapPin,
+  Phone,
+  YoutubeIcon,
+} from "lucide-react";
 import React from "react";
 
 const Footer = () => {
@@ -9,13 +18,19 @@ const Footer = () => {
           {/* First Column */}
           <div className="lg:w-[30%] md:w-[30%] sm:w-full w-full h-auto p-2 flex items-start flex-col">
             <Link className="w-fit h-auto text-3xl text-indigo-600 font-semibold tracking-wide flex items-end gap-x-1 relative mb-3">
-              G<span className="text-xl font-bold text-gray-300">Y</span>M
-              <Dumbbell className="w-5 h-4 text-indigo-600 -rotate-45 absolute top-0 left-[46%] translate-x-[-50%]" />
+              <span className="relative flex items-center">
+                G
+                <Dumbbell className="w-5 h-4 text-indigo-600 -rotate-45 absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                <span className="text-xl font-bold text-gray-300 ml-1">Y</span>M
+              </span>
             </Link>
+
             <p className="text-base text-gray-500 font-normal mb-4 lg:text-start md:text-start sm:text-center text-center">
-              dfdgfg fgfgr fgdfgf dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr fgdfgf dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr fgdfgf
-              dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr fgdfgf dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr fgdfgf dgr fgfdhdh tyt
-              tuutyity uyuty teytru
+              dfdgfg fgfgr fgdfgf dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg
+              fgfgr fgdfgf dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr
+              fgdfgf dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr fgdfgf
+              dgr fgfdhdh tyt tuutyity uyuty teytru dfdgfg fgfgr fgdfgf dgr
+              fgfdhdh tyt tuutyity uyuty teytru
             </p>
             <div className="w-full h-auto space-y-2">
               <div className="w-full h-auto flex items-center lg:justify-start md:justify-start sm:justify-center justify-center gap-x-2 text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer">
@@ -37,7 +52,9 @@ const Footer = () => {
           <div className="lg:w-[65%] md:w-[65%] sm:w-full w-full h-auto p-2 flex items-center lg:justify-end md:justify-end sm:justify-center justify-center flex-wrap gap-5">
             {/* Services Column */}
             <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex items-center flex-col justify-center">
-              <h2 className="text-lg text-gray-200 font-medium mb-4">Services</h2>
+              <h2 className="text-lg text-gray-200 font-medium mb-4">
+                Services
+              </h2>
               <div className="w-full h-auto">
                 <ul className="w-full h-auto space-y-2">
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
@@ -58,7 +75,9 @@ const Footer = () => {
 
             {/* Quick Links Colum*/}
             <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex items-center flex-col justify-center">
-              <h2 className="text-lg text-gray-200 font-medium mb-4">Quick Links</h2>
+              <h2 className="text-lg text-gray-200 font-medium mb-4">
+                Quick Links
+              </h2>
               <div className="w-full h-auto">
                 <ul className="w-full h-auto space-y-2">
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
@@ -88,16 +107,24 @@ const Footer = () => {
             <div className="w-auto h-auto flex items-center justify-center">
               <ul className="w-auto h-auto flex items-center justify-center gap-x-4">
                 <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
-                  <a href="" target="_blank"><Facebook className="w-5 h-5" /></a>
+                  <a href="" target="_blank">
+                    <Facebook className="w-5 h-5" />
+                  </a>
                 </li>
                 <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
-                  <a href="" target="_blank"><InspectIcon className="w-5 h-5" /></a>
+                  <a href="" target="_blank">
+                    <InspectIcon className="w-5 h-5" />
+                  </a>
                 </li>
                 <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
-                  <a href="" target="_blank"><YoutubeIcon className="w-5 h-5" /></a>
+                  <a href="" target="_blank">
+                    <YoutubeIcon className="w-5 h-5" />
+                  </a>
                 </li>
                 <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md hover:text-white ease-out duration-700">
-                  <a href="" target="_blank"><Facebook className="w-5 h-5" /></a>
+                  <a href="" target="_blank">
+                    <Facebook className="w-5 h-5" />
+                  </a>
                 </li>
               </ul>
             </div>
