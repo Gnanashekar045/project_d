@@ -13,7 +13,7 @@ const Banner = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        {/* Darkened overlay for better text visibility */}
+        {/* Darkened overlay for better text */}
         <div className="w-full h-full bg-black/80 absolute top-0 left-0 z-20"></div>
 
         {/* Text content */}
